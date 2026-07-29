@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Banking.AI</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banking.Application\Banking.Application.csproj" />
+    <ProjectReference Include="..\Banking.Shared\Banking.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- VERIFY on nuget.org - Ollama connector for SK is prerelease and has moved before -->
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.26.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.Ollama" Version="1.26.0-alpha" />
+  </ItemGroup>
+</Project>

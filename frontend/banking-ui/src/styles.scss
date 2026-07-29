@@ -1,0 +1,6 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f4f6fb; color: #1f2430; }
+.card { background: white; border: 1px solid #E2E8F0; border-radius: 8px; padding: 16px; }
+.risk-badge { font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 600; }
+.risk-badge.high { background: #FDE8E8; color: #B42318; }
+.risk-badge.low { background: #FEF0C7; color: #B54708; }
+.risk-badge.read { background: #E7F4EE; color: #0F7B4D; }

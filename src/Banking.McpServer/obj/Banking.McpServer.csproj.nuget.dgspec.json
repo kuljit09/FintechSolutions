@@ -1,0 +1,441 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.McpServer\\Banking.McpServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Application\\Banking.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Application\\Banking.Application.csproj",
+        "projectName": "Banking.Application",
+        "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Application\\Banking.Application.csproj",
+        "packagesPath": "C:\\Users\\2331177\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\2331177\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Domain\\Banking.Domain.csproj": {
+                "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Domain\\Banking.Domain.csproj"
+              },
+              "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Shared\\Banking.Shared.csproj": {
+                "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Shared\\Banking.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Domain\\Banking.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Domain\\Banking.Domain.csproj",
+        "projectName": "Banking.Domain",
+        "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Domain\\Banking.Domain.csproj",
+        "packagesPath": "C:\\Users\\2331177\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\2331177\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Infrastructure\\Banking.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Infrastructure\\Banking.Infrastructure.csproj",
+        "projectName": "Banking.Infrastructure",
+        "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Infrastructure\\Banking.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\2331177\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\2331177\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Application\\Banking.Application.csproj": {
+                "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Application\\Banking.Application.csproj"
+              },
+              "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Domain\\Banking.Domain.csproj": {
+                "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Domain\\Banking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Pgvector": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Pgvector.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.McpServer\\Banking.McpServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.McpServer\\Banking.McpServer.csproj",
+        "projectName": "Banking.McpServer",
+        "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.McpServer\\Banking.McpServer.csproj",
+        "packagesPath": "C:\\Users\\2331177\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.McpServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\2331177\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Application\\Banking.Application.csproj": {
+                "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Application\\Banking.Application.csproj"
+              },
+              "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Infrastructure\\Banking.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Infrastructure\\Banking.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "ModelContextProtocol": {
+              "target": "Package",
+              "version": "[0.1.0-preview, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Shared\\Banking.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Shared\\Banking.Shared.csproj",
+        "projectName": "Banking.Shared",
+        "projectPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Shared\\Banking.Shared.csproj",
+        "packagesPath": "C:\\Users\\2331177\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2331177\\Downloads\\BankingFinTechSupport-Source\\BankingFinTechSupport\\src\\Banking.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\2331177\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

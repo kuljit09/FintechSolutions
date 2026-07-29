@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Banking.McpServer</RootNamespace>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banking.Application\Banking.Application.csproj" />
+    <ProjectReference Include="..\Banking.Infrastructure\Banking.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- VERIFY exact package id/version on nuget.org - still prerelease -->
+    <PackageReference Include="ModelContextProtocol" Version="0.1.0-preview" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+</Project>
