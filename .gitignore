@@ -6,11 +6,19 @@
 *.userosscache
 *.sln.docstates
 
-# Build outputs
-[Bb]in/
-[Oo]bj/
-**/bin/
-**/obj/
+# Build outputs - ALL levels
+**/[Bb]in/
+**/[Oo]bj/
+
+# Specifically ignore debug and release
+**/[Oo]bj/[Dd]ebug/
+**/[Oo]bj/[Rr]elease/
+**/[Bb]in/[Dd]ebug/
+**/[Bb]in/[Rr]elease/
+
+# Visual Studio / .NET
+*.user
+*.suo
 
 # Rider
 .idea/
